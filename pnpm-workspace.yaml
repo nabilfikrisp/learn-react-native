@@ -1,0 +1,9 @@
+packages:
+  - rn-client
+  - backend
+
+nodeLinker: hoisted
+
+onlyBuiltDependencies:
+  - esbuild
+  - unrs-resolver
